@@ -4,7 +4,7 @@ class CreateCartItems < ActiveRecord::Migration[5.0]
       t.integer :customer_id
       t.integer :item_id
       t.integer :amount
-　　　t.timestamps
+      t.timestamps
     end
   end
 end
